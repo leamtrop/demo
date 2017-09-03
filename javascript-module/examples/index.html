@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width" name="viewport"/>
+    <title>MyLib</title>
+    <script src="../dist/MyLib.js"></script>
+  </head>
+  <body>
+    body
+    <script>
+      (function() {
+        var Lib = new MyLib.utils({ name: "value" });
+        Lib.someFunction(1);
+      })();
+    </script>
+  </body>
+</html>
